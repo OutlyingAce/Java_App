@@ -1,8 +1,7 @@
-import javax.swing.*;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Test {
+public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
