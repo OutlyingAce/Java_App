@@ -88,9 +88,8 @@ public class Test {
             if (num == 4) {
                 System.out.println("Welcome to the vowel/consonent checker");
                 System.out.println("Enter the character: ");
-                char letter;
-                letter = (char) sc.nextInt();
-                switch (letter) {
+                char alphabet = (char) sc.nextInt();
+                switch (alphabet) {
                     case 'a', 'e', 'i', 'o', 'u':
                         System.out.println("The entered character is Vowel");
                         break;
